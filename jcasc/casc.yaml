@@ -12,6 +12,8 @@ jenkins:
      permissions:
        - "Overall/Administer:admin"
        - "Overall/Read:developer"
+       - "Job/Read:developer"
+       - "View/Read:developer"
        - "Job/Build:developer"
 tool:
   terraform:
